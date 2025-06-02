@@ -1,0 +1,10 @@
+created a repo named commandManagement
+
+initialised the repo with go module using the command:
+go mod init <package-name>
+
+using the gin framework to create a backend api server
+
+installing the gin dependencies from github using the command:
+go get -u github.com/gin-gonic/gin
+

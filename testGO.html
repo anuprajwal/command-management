@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Command Management</title>
+</head>
+<body>
+  <h1>Command Management</h1>
+  <form action="http://127.0.0.1:8080/api/comand-management" method="POST">
+    <label for="command">Enter Command:</label><br>
+    <input type="text" id="command" name="command" required><br><br>
+
+    <label for="method">Select Method:</label><br>
+    <select id="method" name="method">
+      <option value="cmd" selected>cmd (default)</option>
+      <option value="terminal">terminal</option>
+      <option value="ssh">ssh</option>
+    </select><br><br>
+
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
