@@ -8,3 +8,16 @@ using the gin framework to create a backend api server
 installing the gin dependencies from github using the command:
 go get -u github.com/gin-gonic/gin
 
+main.go file attatches the existing routes to the main execution of server
+
+main.go file is the entry point
+
+/routes has the package named routes which creates and maintains the methods and url endpoints for the server.
+
+/controllers has the package controllers which handles the logic to be run for each url endpoint.
+
+Ping function gives pong response to check the server health
+
+CommandManager function gives the functionality of running and returning the output of the comands provided
+
+testGO.html file is the frontend server to interact with the api server.
